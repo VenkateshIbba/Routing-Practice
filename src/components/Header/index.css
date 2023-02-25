@@ -1,0 +1,58 @@
+/* Write your CSS code here */
+.nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Roboto';
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.wave-img {
+  height: 40px;
+  width: 40px;
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .wave-img {
+    margin-left: 0px;
+    height: 30px;
+    width: 30px;
+  }
+}
+
+.wave-name {
+  font-size: 20px;
+  color: #12022f;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .wave-name {
+    font-size: 16px;
+    margin-left: 8px;
+  }
+}
+
+.name {
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-right: 15px;
+  color: #12022f;
+}
+
+@media screen and (max-width: 767px) {
+  .name {
+    font-size: 16px;
+    margin-right: 0px;
+    margin-left: 10px;
+  }
+}
